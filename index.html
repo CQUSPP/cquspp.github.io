@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Home</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="gb2312">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<meta name="keywords" content="Bootstrap Responsive Templates, Iphone Compatible Templates, Smartphone Compatible Templates, Ipad Compatible Templates, Flat Responsive Templates"/>
+<!--bootstarp-css-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--/bootstarp-css -->
+<!--css-->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--/css-->
+<!--fonts-->
+<link href='http://fonts.useso.com/css?family=Roboto:500,900,400italic,100,700italic,300,700,500italic,100italic,300italic,400' rel='stylesheet' type='text/css'>
+<!--/fonts-->
+<!--js-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easydropdown.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+			  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+         auto: true,
+		 nav: true,
+		 speed: 500,
+		 namespace: "callbacks",
+      });
+    });
+  </script>
+<!--/js-->
+ <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+
+</head>
+<body>
+<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="header-info">
+					<div class="logo">
+				<a href="#"><img src="images/logo.png" class="img-responsive" alt=""/></a>
+			</div>
+				<div class="header-right">
+					<div class="menu">
+						<span class="menu">MENU</span>
+							<ul class="navigatoin">
+							  <li><a class="scroll" href="#Home">大赛首页</a></li>
+							  <li><a class="scroll" href="#About">比赛简介</a></li>
+							  <li><a class="scroll" href="#Services">赛程公告</a></li>
+							  <li><a class="scroll" href="#Features">作品展示</a></li>
+							  <li><a class="scroll" href="#Price">奖项设置</a></li>
+							  <li><a class="scroll" href="#Contact">我要报名</a></li>
+							  <a class="signup play-icon popup-with-zoom-anim" href="#small-dialog2">登陆</a>
+							</ul>
+					</div>		
+			</div>
+			<!--script-nav -->	
+			<script>
+					$("span.menu").click(function(){
+						$("ul.navigatoin").slideToggle("slow" , function(){
+						});
+					});
+					</script>
+					<script type="text/javascript">
+							jQuery(document).ready(function($) {
+								$(".scroll").click(function(event){		
+									event.preventDefault();
+									$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+								});
+							});
+							</script>
+						<div class="clearfix"> </div>
+					<!-- /script-nav -->
+			<div class="clearfix"> </div>
+			</div>
+			<!-- pop-up-box -->
+				<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+				<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+				<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+			<!--//pop-up-box -->
+			<div id="small-dialog2" class="mfp-hide">
+				<div class="signup">
+					<h3>Login</h3>
+					<h4><a href="#">let's get started</a></h4> 
+					<input type="text" class="email" placeholder="Email" required=""/>
+					<input type="password" placeholder="Password" required=""/>
+					<input type="submit"  value="Login"/>
+				</div>
+			</div>	
+			<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>
+		</div>
+		<div id="Home" class="header-bottom">
+			<div class="container">
+		<div class="clo-sm-4 h-left">
+			<span> </span>
+		</div>
+		<div class="col-sm-8 h-right">
+			<h1>重庆大学PS-PPT技能大赛</h1>
+			<p>                    大学生PPT与PS实用操作技能提升项目拟在通过“赛前指导”、“以赛代训”、“作品展示”、“专家点评”等方式，开展以青春校园为主题的全校性的PPT与PS技能大赛。该项目以操作技术为本，以优秀作品会友，拟吸引、培养并选拔一批志同道合且具有PPT与PS实际操作技能的学生参加比赛，并在赛后拟成立以学生团队为主体的工作室，以学生为依托，立足校园，为对PPT与PS技能提升与应用有兴趣、有需求的学生提供良好的学习机会、充分的展示平台与广阔的应用空间</p>
+		  <div class="buttons">
+						<input type="button" value="GO to PS"><input type="button" class="act" value="GO to PPT">
+		  </div>
+		</div>
+		</div>
+		<div class="clearfix"> </div>
+		</div>
+	</div>
+<!--/header-->
+<!--about-->
+<div id="About" class="about">
+	<div class="container">
+		<div class="about-info">
+			<div class="col-md-8 about-left">
+				<h2>大赛简介</h2>
+				<p>大学生PPT与PS实用操作技能提升项目拟在通过“赛前指导”、“以赛代训”、“作品展示”、“专家点评”等方式，开展以青春校园为主题的全校性的PPT与PS技能大赛。该项目以操作技术为本，以优秀作品会友，拟吸引、培养并选拔一批志同道合且具有PPT与PS实际操作技能的学生参加比赛，并在赛后拟成立以学生团队为主体的工作室，以学生为依托，立足校园，为对PPT与PS技能提升与应用有兴趣、有需求的学生提供良好的学习机会、充分的展示平台与广阔的应用空间</p>
+			<div class="sc-icons">
+				<a href="#"><span class="icon1"> </span></a>
+				<a href="#"><span class="icon2"> </span></a>
+				<a href="#"><span class="icon3"> </span></a>
+				
+			</div>
+			</div>
+			<div class="col-md-4 about-right">
+				<img src="images/carry-bags.png" class="img-responsive" alt=""/>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--/about-->
+<!--services-->
+<div id="Services" class="services">
+	<div class="container">
+		<div class="services-grids">
+			<div class="col-md-4 grids-info">
+				<i class="icon1"> </i> 
+				<h3>初赛</h3>
+				<p>大赛分为两大组别，一为PPT组，二为PS组。
+          学生采取个人提交或组团提交方式，各团队成员不超过3人。
+      报名学生可自行选择任一组别，也可两组兼报。
+      参赛学生均为重庆大学在读学生，无其他附设条件。</p>
+			</div>
+			<div class="col-md-4 grids-info">
+				<i class="icon2"> </i>
+				<h3>作品提交</h3>
+				<p>过线上提交方式，分组别征集并筛选学生初赛作品，邀请学工部门相关领导、多媒体技术与艺术设计等课程的专任教师、微软俱乐部骨干成员及相关比赛往届获奖学生组成专业评审团，对所有的学生参赛作品进行点评与打分</p>			</div>
+			<div class="col-md-4 grids-info">
+				<i class="icon3"> </i>
+				<h3>作品展示</h3>
+				<p>线上、线下同时公布获奖作品，召开获奖作品展示暨总结颁奖大会，由相关领导与专业评审现场给予积极反馈与改进指导。与此同时，正式成立校园工作室并举行揭牌仪式，任命首批工作室负责人，公布工作室主要成员与具体分工</p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+
+<!--/services-->
+<!--Features-->
+<div id="Features" class="Features">
+	<div class="container">
+		<div class="Features-info">
+			<div class="Features-info-top">
+				<h3>作品巡展</h3>
+                <p></p>
+				<p>邀请获奖学生携参赛作品至各校区及学院开展PPT与PS技能培训分享活动</p>
+			</div>
+			<div class="slider">
+	    <ul class="rslides" id="slider1">
+	      <li><img src="images/slider.png" alt=""></li>
+	      <li><img src="images/slider1.png" alt=""></li>
+	      <li><img src="images/slider2.png" alt=""></li>
+	    </ul>
+    </div>
+    
+		</div>
+	</div>
+</div>
+<!--/Features-->
+<!--price-->
+<div id="Price" class="price">
+	<div class="container">
+		<div class="price-info">
+			<h3>奖项设置</h3>
+			<p>拟通过大学生PPT与PS实用操作技能大赛吸引、培养并选拔一批志同道合且具有PPT与PS实际操作技能的学生，在赛后成立以学生团队为主体的校园工作室，协助校内各部门、各学院开展相关系列活动，继续深入各校区、各学院对有兴趣的师生开展PPT与PS实用操作技能指导与交流</p>
+		</div>
+		<div class="price-grid">
+			<div class="price-column">
+				<div class="price-col-top">
+					<h4>一等奖</h4>
+					<div class="price-col-bottom">
+					<h5>1000$</h5>
+				
+					<span class="p-line"> </span>
+					<ul class="pr-list">
+						<li>测试测试</li>
+						<li>测试测试</li>
+						<li>测试测试</li>
+						<li>测试测试</li>
+						<li>测试测试</li>
+					</ul>
+					<a href="#">SIGN UP</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+				<div class="price-column">
+				<div class="price-col-top-in">
+					<h4>二等奖</h4>
+					<div class="price-col-bottom-in">
+					<h3>800$</h3>
+				
+					<span class="p-line"> </span>
+					<ul class="pr-list">
+					<li>测试测试</li>
+						<li>测试测试</li>
+						<li>测试测试</li>
+						<li>测试测试</li>
+						<li>测试测试</li>
+					</ul>
+					<a href="#">SIGN UP</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+				<div class="price-column">
+				<div class="price-col-top-inn">
+					<h4>三等奖</h4>
+					<div class="price-col-bottom-inn">
+					<h6>500$</h6>
+				
+					<span class="p-line"> </span>
+					<ul class="pr-list">
+					<li>测试测试</li>
+						<li>测试测试</li>
+						<li>测试测试</li>
+						<li>测试测试</li>
+						<li>测试测试</li>
+					</ul>
+					<a href="#">SIGN UP</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--/price-->
+<!--contact-->
+<div id="Contact" class="contact">
+	<div class="container">
+		<h3>我要报名</h3>
+		<div class="contact-us">
+				<div class="col-md-6 contact-info">
+					<ul class="icon-menu">
+						<li class="ion"><a href="#"><img src="images/01.png"></a></li>
+						<li class="fon"><p>重庆大学A区计算机学院主教1832</p></li>
+					</ul>
+							<form>
+								 <input type="text" class="text" value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First name...';}">
+								 <input type="text" class="text" value="联系方式" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last name...';}">
+								 <div class="dropdown-button">           			
+							<select class="dropdown" tabindex="9"data-settings='{"wrapperClass":"flat"}'>
+							<option value="0">选择学院 </option>	
+							<option value="1">计算机学院</option>
+							<option value="2">软件学院</option>
+							<option value="3">数统学院 </option>
+							<option value="4">111111</option>
+							<option value="5">222222</option>
+							<option value="6">333333</option>
+							<option value="7">444444</option>
+							<option value="8">555555</option>
+						  </select>
+						</div>
+
+							</form>
+				</div>
+						<div class="col-md-6 contact-intro">
+							<div class="contact-information">
+								<ul class="contact-in">
+									<li class="iod">
+										<li class="ion"><a href="#"><img src="images/02.png"></a></li>
+									</li>
+									<li class="elt">
+										<p>12345678 </p>
+									</li>
+								</ul>
+							</div>
+							<div class="contact-infor">
+								<ul class="contact-is">
+									<li class="iod-1">
+										<li class="ion"><a href="#"><img src="images/03.png"></a></li>
+									</li>
+									<li class="elt-1">
+										<p><a href="mailto:info(at)sector.com">530113042@qq.com</a></p>
+									</li>
+								</ul>
+									<textarea onfocus="if(this.value == 'Message...') this.value='';" onblur="if(this.value == '') this.value='Message...';" >个人简介</textarea>
+									<input type="submit" value="SUBMIT">
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--/contact-->
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="copy-rights">
+				 <p>Copyright &copy; 2015.fanshyiis（曹鹏翔） All rights reserved.</p>
+			</div>
+			<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	</div>
+</div>
+<!--/footer-->
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
